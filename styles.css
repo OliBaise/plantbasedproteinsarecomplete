@@ -17,6 +17,30 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
+/* === Header Spacing (Whitespace Between h1, h2, h3, etc.) === */
+h1 {
+    font-size: 32px;
+    margin-top: 40px; /* Adds space above */
+    margin-bottom: 20px; /* Adds space below */
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* === Paragraph Spacing === */
+p {
+    margin-bottom: 20px; /* Adds space between paragraphs */
+}
+
 /* === Table Styling === */
 .table-container {
     overflow-x: auto;
@@ -65,6 +89,18 @@ tbody tr:nth-child(even) {
         padding: 8px;
         font-size: 14px;
     }
+    h1 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -75,6 +111,18 @@ tbody tr:nth-child(even) {
     th, td {
         padding: 6px;
         font-size: 12px;
+    }
+    h1 {
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    h2 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-top: 15px;
     }
 }
 
