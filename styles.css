@@ -156,4 +156,14 @@ ul ul li {
 ol li {
     margin-bottom: 10px;
 }
+/* === Proper Spacing for Unordered and Ordered Lists === */
+ul, ol {
+    list-style-type: disc; /* Keeps bullet points */
+    padding-left: 20px; /* Indentation for readability */
+}
 
+/* Add space between each list item */
+ul li, ol li {
+    margin-bottom: 15px; /* Adjust this value for more or less space */
+    line-height: 1.6; /* Improves readability */
+}
